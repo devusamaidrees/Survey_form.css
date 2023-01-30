@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+    <h4>Let us know how we can improve freeCodeCamp</h4>
+    <form action="survey.php">
+        <label id="name-label" for="name">Name:</label>
+        <div class="form-control"><input type="text" placeholder="Enter your name" size="40px"> </div>
+        <label id="email-label" for="email">Email:</label>
+        <div class="form-control"><input type="email" placeholder="Enter your Email" size="40px"> </div>
+    <label id="age-label" for="age">Age:</label>
+        <div class="form-control"><input type="number" placeholder="Age" min="15" max="40"> </div>
+        <label id="select-label" for="select"> <p>Which option best describes your current role?</p> </label> 
+        <div class="form-control">
+            <select>
+                <option value="select"> select an option</option>
+                <option value="studnt">Student</option>
+                <option value="teacher">Full Time job</option>
+                <option value="developer">prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <label id="radio-label" for="radio"> <p>How likely is that you would recommend freeCodeCamp to a friend? </p> </label>
+        <div class="form-control">
+            <input type="radio" name="radio">Definitely
+            <input type="radio" name="radio">Maybe
+            <input type="radio" name="radio"> Not sure
+        </div>
+        <label id="select-label" for="select"><p>What do you like most in freeCodeCamp:</p></label>
+        <div class="form-control">
+            <select>
+                <option value="select"> select an option</option>
+                <option value="Challenges">Challenges</option>
+                <option value="projects">projects</option>
+                <option value="Community">Community</option>
+                <option value="opensource">open source</option>
+            </select>
+        </div>
+        <label id="radio-label" for="radio"><p>Things that should be improved in the future (Check all that apply):</p></label>
+        <div class="form-control">
+            <input type="radio" name="radio-2">Front-end projects
+            <input type="radio" name="radio-2">Back-end projects
+            <input type="radio" name="radio-2">Data Visulization
+        </div>
+        <label id="explanation-label" for="explanation"><p>Comment or Explain :</p></label>
+        <div class="form-control">
+            <textarea cols="30" rows="10" placeholder="Explanation"></textarea>
+        </div>
+        <label id="submit-label" for="submit"></label>
+        <div class="form-control">
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>

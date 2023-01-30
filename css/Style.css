@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(247, 245, 245);
+}
+form{
+    width: 100vw;
+}
+h4{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+p{
+    width: 230px;
+}
+label{
+    display: inline-flex;
+    justify-content: end;
+    width: 45vw;
+    padding: 10px 0;
+}
+.form-control{
+    display: inline-block;
+    width: 45vw;
+    padding: 10px 0;
+}
